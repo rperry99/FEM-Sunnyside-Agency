@@ -98,7 +98,7 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ## Author
 
-- Website - [Russ](https://dev.to/russdevs)
+- Blog - [DEV.TO](https://dev.to/russdevs)
 - Frontend Mentor - [@rperry99](https://www.frontendmentor.io/profile/rperry99)
 - Twitter - [@yourusername](https://twitter.com/russdevs)
 
