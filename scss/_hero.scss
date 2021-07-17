@@ -1,0 +1,56 @@
+.hero {
+  display: block;
+  height: 100vh;
+  width: 100vw;
+  background-image: url('../images/mobile/image-header.jpg');
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+  h2 {
+    color: white;
+    font-size: 40px;
+    width: 327px;
+    font-weight: 900;
+    line-height: 49.32px;
+    letter-spacing: 6.25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: $serif-font;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+  }
+  img {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media screen and (max-width: $breakpoint-mobile-sm) {
+  .hero h2 {
+    letter-spacing: 4.5px;
+  }
+}
+
+@media screen and (min-width: $breakpoint-tablet) {
+  .hero {
+    background: url('../images/desktop/image-header.jpg');
+    background-position: center;
+    background-size: cover;
+    h2 {
+      font-size: 56px;
+      line-height: 69.05px;
+      letter-spacing: 8.75px;
+      width: 500px;
+    }
+  }
+}
+
+@media screen and (min-width: $breakpoint-desktop) {
+  .hero h2 {
+    width: max-content;
+  }
+}

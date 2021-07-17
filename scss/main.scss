@@ -1,7 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+
+// Media Query Breakpoints
+$breakpoint-tablet: 767px;
+$breakpoint-mobile-sm: 320px;
+$breakpoint-desktop: 1024px;
+
+// Fonts
+$body-copy-font-size: 18px;
+$serif-font: 'Fraunces', Georgia, serif;
+$sans-serif-font: 'Barlow', Arial, sans-serif;
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@import "nav.scss";
+@import 'nav.scss';
+@import 'hero.scss';

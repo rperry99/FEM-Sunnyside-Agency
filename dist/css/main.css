@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -5,12 +6,69 @@
 }
 
 nav {
-  background: #49BCF1;
+  background: #3ebfff;
   width: 100%;
   padding: 32px 24px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  z-index: 40000;
+}
+
+.hero {
+  display: block;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../images/mobile/image-header.jpg");
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+}
+.hero h2 {
+  color: white;
+  font-size: 40px;
+  width: 327px;
+  font-weight: 900;
+  line-height: 49.32px;
+  letter-spacing: 6.25px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Fraunces", Georgia, serif;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+}
+.hero img {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 320px) {
+  .hero h2 {
+    letter-spacing: 4.5px;
+  }
+}
+@media screen and (min-width: 767px) {
+  .hero {
+    background: url("../images/desktop/image-header.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  .hero h2 {
+    font-size: 56px;
+    line-height: 69.05px;
+    letter-spacing: 8.75px;
+    width: 500px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .hero h2 {
+    width: max-content;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
