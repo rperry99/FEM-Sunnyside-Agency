@@ -84,7 +84,7 @@ And really, I should be doing mobile first regardless because so many more peopl
 
 - Blog - [DEV.TO](https://dev.to/russdevs)
 - Frontend Mentor - [@rperry99](https://www.frontendmentor.io/profile/rperry99)
-- Twitter - [@yourusername](https://twitter.com/russdevs)
+- Twitter - [@RussDevs](https://twitter.com/russdevs)
 
 ## Acknowledgments
 
