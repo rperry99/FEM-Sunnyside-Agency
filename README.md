@@ -59,29 +59,13 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-<!-- Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+#### The importance of starting with mobile first
 
-To see how you can add code snippets, see below:
+This is actually the second time I attempted this project. I had to scrap the first one. When I did the first one, I jumped right into the desktop design. When it was time to work on mobile, it was much harder to get things to where they needed to go.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+This time, I started moble first. I was able to make the hero section responsive so much easier than I was the last time I tried the project.
 
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.** -->
+And really, I should be doing mobile first regardless because so many more people are using phones to browse the web than desktop it seems.
 
 ### Continued development
 
