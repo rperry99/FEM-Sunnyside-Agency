@@ -8,3 +8,41 @@ nav {
   position: fixed;
   z-index: 40000;
 }
+
+.nav-desktop {
+    display: none;
+    .links {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        a {
+            color: white;
+            text-decoration: none;
+            font-size: $body-copy-font-size;
+            font-family: $sans-serif-font;
+            margin-right: 47px;
+        }
+        .cta {
+            color: #24303E;
+            background: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 140px;
+            height: 56px;
+            border-radius: 28px;
+            text-align: center;
+            font-family: $serif-font;
+
+        }
+    }
+}
+
+@media screen and (min-width: $breakpoint-tablet){
+    .nav-mobile {
+        display: none;
+    }
+    .nav-desktop {
+        display: flex;
+    }
+}

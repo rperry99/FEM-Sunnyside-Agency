@@ -16,6 +16,43 @@ nav {
   z-index: 40000;
 }
 
+.nav-desktop {
+  display: none;
+}
+.nav-desktop .links {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.nav-desktop .links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Barlow", Arial, sans-serif;
+  margin-right: 47px;
+}
+.nav-desktop .links .cta {
+  color: #24303E;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 56px;
+  border-radius: 28px;
+  text-align: center;
+  font-family: "Fraunces", Georgia, serif;
+}
+
+@media screen and (min-width: 767px) {
+  .nav-mobile {
+    display: none;
+  }
+
+  .nav-desktop {
+    display: flex;
+  }
+}
 .hero {
   display: block;
   height: 100vh;
