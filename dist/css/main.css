@@ -42,6 +42,7 @@ nav {
   border-radius: 28px;
   text-align: center;
   font-family: "Fraunces", Georgia, serif;
+  transition: all ease-in-out 200ms;
 }
 .nav-desktop .links .cta:hover {
   color: white;

@@ -33,6 +33,7 @@ nav {
             border-radius: 28px;
             text-align: center;
             font-family: $serif-font;
+            transition: all ease-in-out 200ms;
             &:hover {
                 color: white;
                 background: rgba(255,255,255,0.25);
