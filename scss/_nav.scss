@@ -33,7 +33,10 @@ nav {
             border-radius: 28px;
             text-align: center;
             font-family: $serif-font;
-
+            &:hover {
+                color: white;
+                background: rgba(255,255,255,0.25);
+            }
         }
     }
 }

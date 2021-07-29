@@ -43,6 +43,10 @@ nav {
   text-align: center;
   font-family: "Fraunces", Georgia, serif;
 }
+.nav-desktop .links .cta:hover {
+  color: white;
+  background: rgba(255, 255, 255, 0.25);
+}
 
 @media screen and (min-width: 767px) {
   .nav-mobile {
