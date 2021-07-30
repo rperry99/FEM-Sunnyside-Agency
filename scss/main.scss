@@ -4,6 +4,7 @@
 $breakpoint-tablet: 767px;
 $breakpoint-mobile-sm: 320px;
 $breakpoint-desktop: 1024px;
+$breakpoint-desktop-lg: 1439px;
 
 // Fonts
 $body-copy-font-size: 18px;
@@ -14,6 +15,7 @@ $sans-serif-font: 'Barlow', Arial, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border: none;
 }
 
 @import 'nav.scss';

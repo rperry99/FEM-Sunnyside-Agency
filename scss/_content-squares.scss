@@ -1,8 +1,129 @@
 .content-squares {
+  width: 99vw;
+  display: flex;
+  flex-direction: column;
+  img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    &.desktopImg {
+      display: none;
+    }
+    &.mobileImg {
+      display: block;
+    }
+  }
+  .content-text {
+    display: inline-block;
+    padding: 64px 24px;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    h3 {
+      font-size: 32px;
+      font-family: $serif-font;
+      font-weight: bold;
+      line-height: 39.46px;
+      letter-spacing: -0.23px;
+      color: #24303e;
+      margin-bottom: 24px;
+    }
+    p {
+      font-family: $sans-serif-font;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 30px;
+      letter-spacing: -0.13px;
+      color: #808397;
+      margin-bottom: 32px;
+    }
+    a {
+      text-transform: uppercase;
+      font-family: $serif-font;
+      color: #24303e;
+      font-weight: 900;
+      font-size: 15px;
+      line-height: 25px;
+      letter-spacing: 1px;
+      text-decoration: none;
+      position: relative;
+      &::after {
+        content: '';
+        width: 137px;
+        height: 10px;
+        position: absolute;
+        top: 12px;
+        right: 50%;
+        transform: translateX(50%);
+        border-radius: 28px;
+        opacity: 25%;
+        z-index: -10000;
+        transition: opacity ease-in-out 200ms;
+      }
+      &.transform::after {
+        background: #fad400;
+      }
+      &.stand-out::after {
+        background: #fe7766;
+      }
+      &:hover:after {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $breakpoint-desktop) {
+  .content-squares {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     img {
-        width: 100%;
+      width: 50%;
+      &.desktopImg {
+        display: inline-block;
+      }
+      &.mobileImg {
+        display: none;
+      }
     }
     .content-text {
-        display: block;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      text-align: left;
+      h3 {
+        font-size: 40px;
+        line-height: 49.32px;
+        letter-spacing: -0.29px;
+        margin-bottom: 36px;
+      }
+      p {
+        margin-bottom: 40px;
+      }
     }
+    .order1 {
+      order: 1;
+    }
+    .order2 {
+      order: 2;
+    }
+    .order3 {
+      order: 3;
+    }
+    .order4 {
+      order: 4;
+    }
+  }
+}
+
+@media screen and (min-width: $breakpoint-desktop-lg) {
+  .content-text {
+    padding: 165px 158px 110px 157px !important;
+    a::after {
+      right: 60%;
+    }
+  }
 }
