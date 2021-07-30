@@ -1,5 +1,5 @@
 .content-squares {
-  width: 100vw;
+  width: 100vw !important;
   display: flex;
   flex-direction: column;
   img {
@@ -75,11 +75,10 @@
 
 @media screen and (min-width: $breakpoint-desktop) {
   .content-squares {
-    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     img {
-      width: 50%;
+      width: 50% !important;
       &.desktopImg {
         display: inline-block;
       }
@@ -88,7 +87,7 @@
       }
     }
     .content-text {
-      width: 50%;
+      width: 50vw !important;
       display: flex;
       flex-direction: column;
       justify-content: center;

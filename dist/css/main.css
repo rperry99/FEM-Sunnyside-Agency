@@ -116,7 +116,7 @@ nav {
   }
 }
 .content-squares {
-  width: 100vw;
+  width: 100vw !important;
   display: flex;
   flex-direction: column;
 }
@@ -192,12 +192,11 @@ nav {
 
 @media screen and (min-width: 1024px) {
   .content-squares {
-    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
   }
   .content-squares img {
-    width: 50%;
+    width: 50% !important;
   }
   .content-squares img.desktopImg {
     display: inline-block;
@@ -206,7 +205,7 @@ nav {
     display: none;
   }
   .content-squares .content-text {
-    width: 50%;
+    width: 50vw !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
