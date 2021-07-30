@@ -8,7 +8,7 @@
 
 nav {
   background: #3ebfff;
-  width: 99vw;
+  width: 100vw;
   padding: 32px 24px;
   display: flex;
   justify-content: space-between;
@@ -30,6 +30,8 @@ nav {
   text-decoration: none;
   font-size: 18px;
   font-family: "Barlow", Arial, sans-serif;
+}
+.nav-desktop .links a:not(:last-child) {
   margin-right: 47px;
 }
 .nav-desktop .links .cta {

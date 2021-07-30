@@ -1,6 +1,6 @@
 nav {
   background: #3ebfff;
-  width: 99vw;
+  width: 100vw;
   padding: 32px 24px;
   display: flex;
   justify-content: space-between;
@@ -20,7 +20,9 @@ nav {
       text-decoration: none;
       font-size: $body-copy-font-size;
       font-family: $sans-serif-font;
-      margin-right: 47px;
+      &:not(:last-child) {
+        margin-right: 47px;
+      }
     }
     .cta {
       color: #24303e;
