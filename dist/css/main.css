@@ -112,5 +112,11 @@ nav {
     width: max-content;
   }
 }
+.content-squares img {
+  width: 100%;
+}
+.content-squares .content-text {
+  display: block;
+}
 
 /*# sourceMappingURL=main.css.map */
