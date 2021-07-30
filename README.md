@@ -82,7 +82,7 @@ And really, I should be doing mobile first regardless because so many more peopl
 
 ## Author
 
-- Blog - [DEV.TO](https://dev.to/russdevs)
+- Blog - [Hashnode](https://hashnode.com/@RussDevs)
 - Frontend Mentor - [@rperry99](https://www.frontendmentor.io/profile/rperry99)
 - Twitter - [@RussDevs](https://twitter.com/russdevs)
 
