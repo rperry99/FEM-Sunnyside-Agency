@@ -305,5 +305,93 @@ nav {
     width: 300px;
   }
 }
+.testimonials {
+  padding: 64px 24px;
+}
+.testimonials h3 {
+  font-family: "Fraunces", Georgia, serif;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 19.73px;
+  letter-spacing: 4px;
+  color: #a7aaad;
+  text-transform: uppercase;
+  margin-bottom: 64px;
+  text-align: center;
+}
+.testimonials .testimonies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.testimonials .testimonies .testimony-group {
+  text-align: center;
+}
+.testimonials .testimonies .testimony-group:not(:last-of-type) {
+  margin-bottom: 64px;
+}
+.testimonials .testimonies .testimony-group img {
+  height: 72px;
+  width: 72px;
+  border-radius: 50%;
+  margin-bottom: 32px;
+}
+.testimonials .testimonies .testimony-group .testimony {
+  font-family: "Barlow", Arial, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: -0.13px;
+  text-align: center;
+  color: #5b636d;
+  margin-bottom: 32px;
+}
+.testimonials .testimonies .testimony-group .testimony-name {
+  font-family: "Fraunces", Georgia, serif;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22.19px;
+  letter-spacing: -0.13px;
+  text-align: center;
+  color: #24303e;
+  margin-bottom: 9px;
+  text-align: center;
+}
+.testimonials .testimonies .testimony-group .testimony-tag {
+  font-family: "Barlow", Arial, sans-serif;
+  font-weight: 600px;
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: -0.1px;
+  text-align: center;
+  color: #a7aaad;
+}
+
+@media screen and (max-width: 320px) {
+  .testimonials h3 {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .testimonials {
+    padding: 165px 90px;
+  }
+  .testimonials .testimonies {
+    flex-direction: row;
+  }
+  .testimonials .testimonies .testimony-group {
+    margin-bottom: 0 !important;
+    padding: 0;
+  }
+  .testimonials .testimonies .testimony-group:not(:last-of-type) {
+    margin-right: 30px;
+  }
+}
+@media screen and (min-width: 1439px) {
+  .testimonials {
+    padding: 165px 160px;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
