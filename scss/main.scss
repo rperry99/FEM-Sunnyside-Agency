@@ -2,7 +2,7 @@
 
 // Media Query Breakpoints
 $breakpoint-tablet: 767px;
-$breakpoint-mobile-sm: 320px;
+$breakpoint-mobile-sm: 321px;
 $breakpoint-desktop: 1024px;
 $breakpoint-desktop-lg: 1439px;
 
@@ -24,3 +24,4 @@ $sans-serif-font: 'Barlow', Arial, sans-serif;
 @import 'content-overlays.scss';
 @import 'testimonials.scss';
 @import 'gallery.scss';
+@import 'footer.scss';

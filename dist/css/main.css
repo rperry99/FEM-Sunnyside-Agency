@@ -92,7 +92,7 @@ nav {
   transform: translate(-50%, -50%);
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .hero h2 {
     letter-spacing: 4.5px;
   }
@@ -299,7 +299,7 @@ nav {
     width: 339px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .content-overlays .overlay .text p {
     width: 300px;
   }
@@ -367,7 +367,7 @@ nav {
   color: #a7aaad;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .testimonials h3 {
     font-size: 14px;
   }
@@ -412,6 +412,47 @@ nav {
 
   .mobile {
     display: none;
+  }
+}
+footer {
+  background: #90d4c6;
+  text-align: center;
+  padding: 64px 39px;
+}
+footer .footer-links {
+  margin: 40px 0 88px 0;
+}
+footer .footer-links a {
+  color: #458d7e;
+  text-decoration: none;
+  font-family: "Barlow", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.13px;
+  transition: all ease-in-out 200ms;
+}
+footer .footer-links a:not(:last-of-type) {
+  margin-right: 57px;
+}
+footer .social-links a {
+  transition: all ease-in-out 200ms;
+}
+footer .social-links a:not(:last-of-type) {
+  margin-right: 28px;
+}
+
+@media screen and (max-width: 375px) {
+  footer .footer-links a:not(:last-of-type) {
+    margin-right: 20px !important;
+  }
+}
+@media screen and (min-width: 767px) {
+  footer .footer-links a:hover {
+    color: white;
+  }
+
+  footer .social-links a:hover {
+    filter: brightness(0) invert(1);
   }
 }
 
