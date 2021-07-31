@@ -1,0 +1,21 @@
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  .desktop {
+    display: none;
+    width: 25%;
+  }
+  .mobile {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: $breakpoint-tablet) {
+  .desktop {
+    display: inline-block !important;
+  }
+  .mobile {
+    display: none;
+  }
+}

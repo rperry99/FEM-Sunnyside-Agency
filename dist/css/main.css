@@ -392,5 +392,27 @@ nav {
     padding: 165px 160px;
   }
 }
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.gallery .desktop {
+  display: none;
+  width: 25%;
+}
+.gallery .mobile {
+  width: 50%;
+}
+
+@media screen and (min-width: 767px) {
+  .desktop {
+    display: inline-block !important;
+  }
+
+  .mobile {
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
