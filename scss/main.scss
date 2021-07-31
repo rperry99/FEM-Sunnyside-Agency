@@ -18,6 +18,10 @@ $sans-serif-font: 'Barlow', Arial, sans-serif;
   border: none;
 }
 
+body {
+  overflow-y: overlay;
+}
+
 @import 'nav.scss';
 @import 'hero.scss';
 @import 'content-squares.scss';
