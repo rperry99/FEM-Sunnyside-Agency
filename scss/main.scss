@@ -18,8 +18,9 @@ $sans-serif-font: 'Barlow', Arial, sans-serif;
   border: none;
 }
 
+// This fixes an overflow issue on windows.
 body {
-  overflow-y: overlay;
+  overflow-y: overlay !important;
 }
 
 @import 'nav.scss';
