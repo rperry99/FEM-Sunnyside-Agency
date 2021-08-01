@@ -4,7 +4,7 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 
 ## Table of contents
 
-<!-- - [Overview](#overview)
+- [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
@@ -14,7 +14,7 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments) -->
+- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -24,38 +24,25 @@ Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
+- Mobile: Toggle the nav bar on and off by tapping on the hamburger menu.
 
 ### Screenshot
 
-<!-- ![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.** -->
+![](./FEM-Sunnyside-Agency-Screenshot.png)
 
 ### Links
 
-- Solution URL: [Github Link](https://github.com/rperry99/FEM-Sunnyside-Agency)
-<!-- - Live Site URL: [Add live site URL here](https://your-live-site-url.com) -->
+- Solution URL: [Sunnyside Agency](https://fem-sunnyside-agency.onrender.com/)
+  Hosted using [Render](https://www.render.com);
 
 ## My process
 
 ### Built with
 
-<!-- - Semantic HTML5 markup
-- CSS custom properties
+- Semantic HTML5 markup
+- CSS custom properies (using SCSS)
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices** -->
+- Mobile First Workflow
 
 ### What I learned
 
@@ -63,31 +50,35 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 This is actually the second time I attempted this project. I had to scrap the first one. When I did the first one, I jumped right into the desktop design. When it was time to work on mobile, it was much harder to get things to where they needed to go.
 
-This time, I started moble first. I was able to make the hero section responsive so much easier than I was the last time I tried the project.
+This time, I sort of worked on both in tandem. I coded each section to the specs of mobile. Then, once the mobile version was done, I made it responsive.
 
 And really, I should be doing mobile first regardless because so many more people are using phones to browse the web than desktop it seems.
 
+#### Using math and scss together.
+
+I never knew that things like `calc()` didn't work as expected in SCSS. Now I know that if I ever want to use `calc()` (which I do somewhat often), that I will also need to make sure I use interpolation along with adding `@use "sass:math";` to my style sheets.
+
+#### Windows scroll bars can sometimes mess with the width of your project
+
+I was having an issue with my project for a long time, where it was ignoring my rule of `100vw` and I was getting sections that extended past that, causing overflow on the x-axis. I reached out to a web dev friend of mine, [Zaydek](https://github.com/zaydek), and he noticed that the amount that was overflowing was the same amount as the width of the scrollbar. He was able to point me in the right direction as to how to fix this.
+
+I was able to get it fixed thanks to him. I am still not entirely sure what caused it, but it seems to work as expected now! Thanks buddy!
+
 ### Continued development
 
-<!-- Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.** -->
+- I want to continue focusing on SCSS. I really like the organization of it, and I would like to get much better at using it.
+- Something else I want to get better with is working on some positioning issues. I noticed with this project, that overflow and positioning seemed to be a common issue I had to keep debugging.
 
 ### Useful resources
 
-<!-- - [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.** -->
+- [Using Calc with SCSS](https://sass-lang.com/documentation/syntax/special-functions#calc-clamp-element-progid-and-expression) - I never really knew that you couldn't outright use SCSS and `calc()` together without some extra steps. This showed me that I needed to use interpolation using `#{$variable}` along with `@use "sass:math";`.
 
 ## Author
 
-- Blog - [Hashnode](https://hashnode.com/@RussDevs)
+- Blog - [Hashnode](https://russdevs.hashnode.dev/)
 - Frontend Mentor - [@rperry99](https://www.frontendmentor.io/profile/rperry99)
 - Twitter - [@RussDevs](https://twitter.com/russdevs)
 
 ## Acknowledgments
 
-<!-- This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.** -->
+I want to give a shoutout to my friend [Zaydek](https://github.com/zaydek). I was having a weird issue with the page overflowing on the X axis and I couldn't figure out why. He was able to tell me that the issue was a windows specific one, and was able to point me in the right direction to fixing it.
