@@ -6,7 +6,7 @@
   background-size: cover;
   background-position: bottom;
   position: relative;
-  h2 {
+  h1 {
     color: white;
     font-size: 40px;
     width: 327px;
@@ -30,7 +30,7 @@
 }
 
 @media screen and (max-width: $breakpoint-mobile-sm) {
-  .hero h2 {
+  .hero h1 {
     letter-spacing: 4.5px;
   }
 }
@@ -40,7 +40,7 @@
     background: url('../images/desktop/image-header.jpg');
     background-position: center;
     background-size: cover;
-    h2 {
+    h1 {
       font-size: 56px;
       line-height: 69.05px;
       letter-spacing: 8.75px;
@@ -50,7 +50,7 @@
 }
 
 @media screen and (min-width: $breakpoint-desktop) {
-  .hero h2 {
+  .hero h1 {
     width: max-content;
   }
 }
