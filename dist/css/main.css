@@ -200,7 +200,7 @@ main img {
   width: 100%;
   margin: 0;
 }
-.content-squares .content-text h3 {
+.content-squares .content-text h2 {
   font-size: 32px;
   font-family: "Fraunces", Georgia, serif;
   font-weight: bold;
@@ -274,7 +274,7 @@ main img {
     align-items: flex-start;
     text-align: left;
   }
-  .content-squares .content-text h3 {
+  .content-squares .content-text h2 {
     font-size: 40px;
     line-height: 49.32px;
     letter-spacing: -0.29px;
@@ -324,7 +324,7 @@ main img {
   left: 50%;
   transform: translateX(-50%);
 }
-.content-overlays .overlay .text h3 {
+.content-overlays .overlay .text h2 {
   font-family: "Fraunces", Georgia, serif;
   font-size: 28px;
   line-height: 34.52px;
@@ -369,7 +369,7 @@ main img {
 .testimonials {
   padding: 64px 24px;
 }
-.testimonials h3 {
+.testimonials h2 {
   font-family: "Fraunces", Georgia, serif;
   font-weight: 900;
   font-size: 16px;
@@ -430,7 +430,7 @@ main img {
 }
 
 @media screen and (max-width: 321px) {
-  .testimonials h3 {
+  .testimonials h2 {
     font-size: 14px;
   }
 }

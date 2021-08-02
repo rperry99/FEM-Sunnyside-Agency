@@ -1,6 +1,6 @@
 .testimonials {
   padding: 64px 24px;
-  h3 {
+  h2 {
     font-family: $serif-font;
     font-weight: 900;
     font-size: 16px;
@@ -62,7 +62,7 @@
 }
 
 @media screen and (max-width: $breakpoint-mobile-sm) {
-  .testimonials h3 {
+  .testimonials h2 {
     font-size: 14px;
   }
 }
