@@ -133,7 +133,7 @@ body {
     display: flex;
   }
 }
-main {
+.hero {
   display: block;
   height: 100vh;
   width: 100vw;
@@ -142,7 +142,7 @@ main {
   background-position: bottom;
   position: relative;
 }
-main h1 {
+.hero h1 {
   color: white;
   font-size: 40px;
   width: 327px;
@@ -157,7 +157,7 @@ main h1 {
   top: 30%;
   transform: translate(-50%, -50%);
 }
-main img {
+.hero img {
   position: absolute;
   top: 55%;
   left: 50%;
@@ -165,17 +165,17 @@ main img {
 }
 
 @media screen and (max-width: 321px) {
-  main h1 {
+  .hero h1 {
     letter-spacing: 4.5px;
   }
 }
 @media screen and (min-width: 767px) {
-  main {
+  .hero {
     background: url("../images/desktop/image-header.jpg");
     background-position: center;
     background-size: cover;
   }
-  main h1 {
+  .hero h1 {
     font-size: 56px;
     line-height: 69.05px;
     letter-spacing: 8.75px;
@@ -183,7 +183,7 @@ main img {
   }
 }
 @media screen and (min-width: 1024px) {
-  main h1 {
+  .hero h1 {
     width: max-content;
   }
 }

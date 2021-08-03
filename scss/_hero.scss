@@ -1,4 +1,4 @@
-section {
+.hero {
   display: block;
   height: 100vh;
   width: 100vw;
@@ -30,13 +30,13 @@ section {
 }
 
 @media screen and (max-width: $breakpoint-mobile-sm) {
-  section h1 {
+  .hero h1 {
     letter-spacing: 4.5px;
   }
 }
 
 @media screen and (min-width: $breakpoint-tablet) {
-  section {
+  .hero {
     background: url('../images/desktop/image-header.jpg');
     background-position: center;
     background-size: cover;
@@ -50,7 +50,7 @@ section {
 }
 
 @media screen and (min-width: $breakpoint-desktop) {
-  section h1 {
+  .hero h1 {
     width: max-content;
   }
 }
