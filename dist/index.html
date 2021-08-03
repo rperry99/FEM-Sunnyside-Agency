@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="page-html">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -317,15 +317,15 @@
       // Toggle Nav section on and off on mobile.
       const mobileNav = document.getElementById('nav-mobile-links');
       const hamburger = document.getElementById('hamburger');
-      const pageBody = document.getElementById('page-body');
+      const htmlBody = document.getElementById('page-html');
 
       console.log(mobileNav.style);
       function toggleNav() {
         if (mobileNav.style.display == '') {
           mobileNav.style.display = 'flex';
-          <!-- pageBody.classList.add('stop-scrolling'); -->
+          htmlBody.classList.add('stop-scrolling');
         } else {
-          <!-- pageBody.classList.remove('stop-scrolling'); -->
+          htmlBody.classList.remove('stop-scrolling');
           mobileNav.style.display = '';
         }
       }
