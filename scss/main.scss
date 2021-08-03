@@ -34,6 +34,12 @@ body {
   overflow: hidden;
 }
 
+// Class to disable scrolling when nav is open on mobile
+.stop-scrolling {
+  // position: fixed !important;
+  overflow: hidden !important;
+}
+
 @import 'nav.scss';
 @import 'hero.scss';
 @import 'content-squares.scss';

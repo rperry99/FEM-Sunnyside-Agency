@@ -20,6 +20,10 @@ body {
   overflow: hidden;
 }
 
+.stop-scrolling {
+  overflow: hidden !important;
+}
+
 nav {
   background: #3ebfff;
   width: 100vw;

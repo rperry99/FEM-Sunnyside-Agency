@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="css/main.css" />
   </head>
 
-  <body>
+  <body id="page-body">
     <nav class="nav-mobile">
       <svg
         class="logo"
@@ -317,13 +317,15 @@
       // Toggle Nav section on and off on mobile.
       const mobileNav = document.getElementById('nav-mobile-links');
       const hamburger = document.getElementById('hamburger');
+      const pageBody = document.getElementById('page-body');
+
       console.log(mobileNav.style);
       function toggleNav() {
         if (mobileNav.style.display == '') {
           mobileNav.style.display = 'flex';
-          mobileNav.style.opacity = 1;
+          <!-- pageBody.classList.add('stop-scrolling'); -->
         } else {
-          mobileNav.style.opacity = 0;
+          <!-- pageBody.classList.remove('stop-scrolling'); -->
           mobileNav.style.display = '';
         }
       }
