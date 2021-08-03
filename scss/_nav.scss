@@ -58,7 +58,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   z-index: 50000;
-  background: white;
+  background: #f2f2f2;
   height: 305px;
   width: 90%;
   justify-content: space-between;
@@ -98,7 +98,7 @@ body {
     height: 0;
     border-top: $triangle-size solid transparent;
     border-bottom: $triangle-size solid transparent;
-    border-right: $triangle-size solid white;
+    border-right: $triangle-size solid #f2f2f2;
     position: absolute;
     right: 0;
     top: calc(#{$triangle-size} * -1) !important;

@@ -18,8 +18,9 @@ $sans-serif-font: 'Barlow', Arial, sans-serif;
   border: none;
 }
 
-// This fixes an overflow issue on windows.
 body {
+  background: #f2f2f2;
+  // This fixes an overflow issue on windows.
   overflow-y: overlay !important;
 }
 
