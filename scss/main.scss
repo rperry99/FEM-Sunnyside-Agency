@@ -35,7 +35,7 @@ body {
 }
 
 // Class to disable scrolling when nav is open on mobile
-#page-html {
+#page-html.active {
   // position: fixed !important;
   overflow: hidden !important;
 }

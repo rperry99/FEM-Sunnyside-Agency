@@ -20,7 +20,7 @@ body {
   overflow: hidden;
 }
 
-#page-html {
+#page-html.active {
   overflow: hidden !important;
 }
 
